@@ -23,13 +23,13 @@ const MarketingPage = () => {
       >
         <div className="flex items-center mb-4 border shadow-sm p-4 bg-amber-100 text-amber-700 rounded-full uppercase">
           <Medal className="h-6 w-6 mr-2" />
-          No 1 task managment
+          Gerenciamento de tarefas nº 1
         </div>
         <h1 className="text-3xl md:text-6xl text-center text-neutral-800 mb-6">
-          Taskfy helps team move
+          Use o Taskify e seja produtivo
         </h1>
-        <div className="text-3xl md:text-6xl bg-gradient-to-r from-amber-600 to-violet-700 text-white px-4 rounded-md pb-4 w-fit">
-          work forward
+        <div className="text-3xl md:text-6xl bg-gradient-to-r from-amber-600 to-violet-700 text-white px-4 p-2 rounded-md pb-4 w-fit">
+          Explore & Avance!
         </div>
       </div>
       <div
@@ -38,12 +38,12 @@ const MarketingPage = () => {
           textFont.className
         )}
       >
-        Collaborate, manage projects, and reach new productivity peaks. from
-        high rises to home office, the way your team works is unique -
-        accomplish ir all with Taskify.
+        Colabore, gerencie projetos e alcance novos níveis de produtividade. Não
+        importa o tamanho do seu negócio, tenha o controle de todas as tarefas
+        usando o Taskify.
       </div>
       <Button className="mt-6" size="lg" asChild>
-        <Link href="/sign-up">Get Task for free</Link>
+        <Link href="/sign-up">Experimentar grátis</Link>
       </Button>
     </div>
   );
